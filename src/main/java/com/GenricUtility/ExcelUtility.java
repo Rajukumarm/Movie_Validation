@@ -22,7 +22,7 @@ public class ExcelUtility {
 		wb.write(fos);
 	}
 
-	public void  readDataForWikiExcelFile(String date,String origin) throws Throwable
+	public void  writeDataForWikiExcelFile(String date,String origin) throws Throwable
 	{
 		FileInputStream fis=new FileInputStream(IpathConstants.ExcelPth);
 
@@ -34,24 +34,12 @@ public class ExcelUtility {
 		wb.close();
 	}
 
-	public void writeDataToExcel() throws Throwable {
+
+	public String readDataFromExcel(String sheetName, int rowNum,int cellNum) throws Throwable {
 		FileInputStream fis=new FileInputStream(IpathConstants.ExcelPth);
 
 		Workbook wb = WorkbookFactory.create(fis);
-		String wikiReleaseDate=wb.getSheet("valid").getRow(1).getCell(2).getStringCellValue();
-		String wikiCountry=wb.getSheet("valid").getRow(1).getCell(3).getStringCellValue();
-		String imdbReleaseDate=wb.getSheet("valid").getRow(1).getCell(0).getStringCellValue();
-		String imdbCountry=wb.getSheet("valid").getRow(1).getCell(1).getStringCellValue();
-		//wb.close();
-
-
-
-		if (imdbReleaseDate.contains(wikiReleaseDate) && imdbCountry.equalsIgnoreCase(wikiCountry)) {
-			System.out.println("release date and country are equal");
-		}
-		else
-		{
-			Assert.fail();
-		}
+		String data=wb.getSheet(sheetName).getRow(rowNum).getCell(cellNum).getStringCellValue();
+		return data;
 	}
 }

@@ -2,66 +2,43 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-22T09:46:07 IST" name="Suite" finished-at="2023-02-22T09:46:56 IST" duration-ms="48837">
+  <suite started-at="2023-03-06T23:08:56 IST" name="Default suite" finished-at="2023-03-06T23:09:32 IST" duration-ms="35822">
     <groups>
     </groups>
-    <test started-at="2023-02-22T09:46:07 IST" name="Test" finished-at="2023-02-22T09:46:56 IST" duration-ms="48837">
-      <class name="movieDetailsValidation.ImdbTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:movieDetailsValidation.ImdbTest@4d465b11]" started-at="2023-02-22T09:46:28 IST" name="launchBrowser" finished-at="2023-02-22T09:46:30 IST" duration-ms="1547" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:movieDetailsValidation.ImdbTest@4d465b11]" started-at="2023-02-22T09:46:30 IST" name="openApplication" finished-at="2023-02-22T09:46:33 IST" duration-ms="3824" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="mainExecution()[pri:0, instance:movieDetailsValidation.ImdbTest@4d465b11]" started-at="2023-02-22T09:46:33 IST" name="mainExecution" finished-at="2023-02-22T09:46:55 IST" duration-ms="21893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainExecution -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:movieDetailsValidation.ImdbTest@4d465b11]" started-at="2023-02-22T09:46:55 IST" name="closeBrowser" finished-at="2023-02-22T09:46:56 IST" duration-ms="449" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:movieDetailsValidation.ImdbTest@4d465b11]" started-at="2023-02-22T09:46:55 IST" name="closeApplication" finished-at="2023-02-22T09:46:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- movieDetailsValidation.ImdbTest -->
-      <class name="movieDetailsValidation.WikipediaTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:movieDetailsValidation.WikipediaTest@5fbdfdcf]" started-at="2023-02-22T09:46:07 IST" name="launchBrowser" finished-at="2023-02-22T09:46:10 IST" duration-ms="2998" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:movieDetailsValidation.WikipediaTest@5fbdfdcf]" started-at="2023-02-22T09:46:10 IST" name="openApplication" finished-at="2023-02-22T09:46:14 IST" duration-ms="4247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="wikiTest()[pri:0, instance:movieDetailsValidation.WikipediaTest@5fbdfdcf]" started-at="2023-02-22T09:46:14 IST" name="wikiTest" finished-at="2023-02-22T09:46:28 IST" duration-ms="13271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wikiTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:movieDetailsValidation.WikipediaTest@5fbdfdcf]" started-at="2023-02-22T09:46:28 IST" name="closeApplication" finished-at="2023-02-22T09:46:28 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:movieDetailsValidation.WikipediaTest@5fbdfdcf]" started-at="2023-02-22T09:46:28 IST" name="closeBrowser" finished-at="2023-02-22T09:46:28 IST" duration-ms="416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- movieDetailsValidation.WikipediaTest -->
+    <test started-at="2023-03-06T23:08:56 IST" name="Default test" finished-at="2023-03-06T23:09:32 IST" duration-ms="35822">
       <class name="movieDetailsValidation.ValidateTest">
-        <test-method signature="validateTest()[pri:0, instance:movieDetailsValidation.ValidateTest@53fdffa1]" started-at="2023-02-22T09:46:56 IST" name="validateTest" finished-at="2023-02-22T09:46:56 IST" duration-ms="102" status="FAIL">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:08:56 IST" name="launchBrowser" finished-at="2023-03-06T23:09:00 IST" duration-ms="4027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:00 IST" name="openApplication" finished-at="2023-03-06T23:09:02 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="mainIMDBExecution()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:02 IST" name="mainIMDBExecution" finished-at="2023-03-06T23:09:22 IST" duration-ms="19901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainIMDBExecution -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:22 IST" name="closeApplication" finished-at="2023-03-06T23:09:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:22 IST" name="openApplication" finished-at="2023-03-06T23:09:23 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="validateTest()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:23 IST" name="validateTest" finished-at="2023-03-06T23:09:23 IST" duration-ms="301" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[The following asserts failed:
+expected [December 17, 2021 (United States)] but found [17 December 2021]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at com.GenricUtility.ExcelUtility.writeDataToExcel(ExcelUtility.java:54)
-at movieDetailsValidation.ValidateTest.validateTest(ValidateTest.java:12)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [December 17, 2021 (United States)] but found [17 December 2021]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at movieDetailsValidation.ValidateTest.validateTest(ValidateTest.java:60)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -96,7 +73,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTest -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:23 IST" name="closeApplication" finished-at="2023-03-06T23:09:23 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:23 IST" name="openApplication" finished-at="2023-03-06T23:09:24 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="wikiTest()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:24 IST" name="wikiTest" finished-at="2023-03-06T23:09:31 IST" duration-ms="7387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikiTest -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:31 IST" name="closeApplication" finished-at="2023-03-06T23:09:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:movieDetailsValidation.ValidateTest@3d6f0054]" started-at="2023-03-06T23:09:31 IST" name="closeBrowser" finished-at="2023-03-06T23:09:32 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- movieDetailsValidation.ValidateTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -101,7 +101,7 @@ public class MovieDetailspage {
 		System.out.println(date);
 		System.out.println(origin);
 		ExcelUtility eLib=new ExcelUtility();
-		eLib.readDataForWikiExcelFile(date, origin);
+		eLib.writeDataForWikiExcelFile(date, origin);
 		//return date;
 	
 	}

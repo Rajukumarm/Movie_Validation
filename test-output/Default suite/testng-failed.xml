@@ -6,6 +6,10 @@
       <class name="movieDetailsValidation.ValidateTest">
         <methods>
           <include name="validateTest"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openApplication"/>
+          <include name="closeApplication"/>
         </methods>
       </class> <!-- movieDetailsValidation.ValidateTest -->
     </classes>

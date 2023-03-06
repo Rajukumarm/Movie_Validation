@@ -11,12 +11,10 @@ public class BaseClass{
 	public WebDriver driver=null;
 	public WebdriverUtility wbLib=new WebdriverUtility();
 	public FileUtility fLib=new FileUtility();
-	public static WebDriver sdriver;
 	@BeforeClass
 	public void launchBrowser() throws Throwable
 	{
 		driver=wbLib.browser("Chrome");
-		sdriver=driver;
 		System.out.println("Browser is open");
 		wbLib.maximizeWindow(driver);
 		

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Feb 22 09:46:07 IST 2023</td>
+<td>Started on:</td><td>Mon Mar 06 20:34:35 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>48 seconds (48837 ms)</td>
+<tr><td>Total time:</td><td>36 seconds (36413 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,18 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='movieDetailsValidation.ValidateTest.validateTest()'><b>validateTest</b><br>Test class: movieDetailsValidation.ValidateTest</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.GenricUtility.ExcelUtility.writeDataToExcel(ExcelUtility.java:54)
-	at movieDetailsValidation.ValidateTest.validateTest(ValidateTest.java:12)
+<td><div><pre>java.lang.AssertionError: expected [December 17, 2021 (United States)] but found [17 December 2021]
+	at movieDetailsValidation.ValidateTest.validateTest(ValidateTest.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1127866590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1127866590'><pre>java.lang.AssertionError: null
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1150480094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1150480094'><pre>java.lang.AssertionError: expected [December 17, 2021 (United States)] but found [17 December 2021]
 	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.fail(Assert.java:106)
-	at com.GenricUtility.ExcelUtility.writeDataToExcel(ExcelUtility.java:54)
-	at movieDetailsValidation.ValidateTest.validateTest(ValidateTest.java:12)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at movieDetailsValidation.ValidateTest.validateTest(ValidateTest.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -128,12 +130,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='movieDetailsValidation.WikipediaTest.wikiTest()'><b>wikiTest</b><br>Test class: movieDetailsValidation.WikipediaTest</td>
 <td></td>
-<td>13</td>
+<td>9</td>
 <td>movieDetailsValidation.WikipediaTest@5fbdfdcf</td></tr>
 <tr>
 <td title='movieDetailsValidation.ImdbTest.mainExecution()'><b>mainExecution</b><br>Test class: movieDetailsValidation.ImdbTest</td>
 <td></td>
-<td>21</td>
+<td>18</td>
 <td>movieDetailsValidation.ImdbTest@4d465b11</td></tr>
 </table><p>
 </body>
