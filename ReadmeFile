@@ -1,0 +1,6 @@
+Step1:Go to  src/main/test
+step2:Click on package name moviesDetailsValidation.
+step3: CLick on class name ValidateTest and click on run icon.
+Step4:Refresh the Project.
+Step5:Click on Test output Folder.
+Step6:Click on enabled html-report to find the validation of the script.
