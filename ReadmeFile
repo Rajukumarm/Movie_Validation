@@ -1,6 +1,7 @@
 Step1:Go to  src/main/test
 step2:Click on package name moviesDetailsValidation.
-step3: CLick on class name ValidateTest and click on run icon.
+step3:Click on class and genrate testNg suite file with the name of validation.
+step4: Click on class name ValidateTest and run the class as testNg suite.
 Step4:Refresh the Project.
 Step5:Click on Test output Folder.
 Step6:Click on enabled html-report to find the validation of the script.
