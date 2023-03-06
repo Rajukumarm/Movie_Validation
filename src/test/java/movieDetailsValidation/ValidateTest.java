@@ -51,8 +51,7 @@ public class ValidateTest extends BaseClass
 		String imdbReleaseDate = eLib.readDataFromExcel("valid", 1, 0);
 		String imdbCountry = eLib.readDataFromExcel("valid", 1, 1);
 		
-//		Assert.assertEquals(wikiReleaseDate, imdbReleaseDate);
-//		Assert.assertEquals(wikiCountry, imdbCountry);
+
 		
     SoftAssert sf=new SoftAssert();
     sf.assertEquals(wikiReleaseDate, imdbReleaseDate);
